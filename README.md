@@ -1,5 +1,5 @@
 # Literalura  
-![Portada del Proyecto](./imagenesReadme/LogoConversorMonedas.PNG)
+![Portada del Proyecto](./imagenesReadme/Logo.PNG)
 
 ---
 
@@ -14,7 +14,7 @@
 ---
 
 ## 📝 Descripción del Proyecto  
-**[Literalura]** es una aplicación que permite buscar información de libros por medio del API Gutendex y guardarla en una base de datos local PosgressSQL.  .  
+**[Literalura]** es una aplicación que permite buscar información de libros por medio del API Gutendex y guardarla en una base de datos local PostgreSQL.
 
 Por ejemplo:  
 > "Obtener información del autor, cantidad de descargas, e idiomas del libro Frankestein. Adicionalmente podemos obtener los datos de año de nacimiento y defunción del autor correspondiente "
@@ -23,12 +23,13 @@ Por ejemplo:
 
 ## 📝 Configuracion del Proyecto
 
-- **Paso 1**: [Es necesario crear nuestro proyecto utilizando Spring Framework, asi como las depedencias postgresql, jackson-databind].  
+- **Paso 1**: [Es necesario crear nuestro proyecto utilizando Spring Framework, asi como las depedencias PostgreSQL, Jackson-Databind].  
 
-- **Paso 2**: [Deben de configurarse las variables de entorno en su sistema operativo para en enlace a las bases de datos, las cuales están referenciadas en el proyecto en el archivo aplication.properties como:
+- **Paso 2**: [Deben de configurarse las variables de entorno en su sistema operativo para en enlace a las bases de datos, las cuales están referenciadas en el proyecto en el archivo aplication.properties en:
 
-spring.datasource.username=${DB_USER}
-spring.datasource.password=${DB_PASSWORD}
+spring.datasource.username={DB_USER}
+
+spring.datasource.password={DB_PASSWORD}
 
 ].  
 
@@ -48,17 +49,17 @@ spring.datasource.password=${DB_PASSWORD}
 
 ### Vista Previa:  
  
-![Vista Previa 1](./imagenesReadme/Liter_1)
+![Vista Previa 1](./imagenesReadme/Liter_1.PNG)
 
-![Vista Previa 2](./imagenesReadme/Liter_2)
+![Vista Previa 2](./imagenesReadme/Liter_2.PNG)
 
-![Vista Previa 3](./imagenesReadme/Liter_3)
+![Vista Previa 3](./imagenesReadme/Liter_3.PNG)
 
-![Vista Previa 4](./imagenesReadme/Liter_4)
+![Vista Previa 4](./imagenesReadme/Liter_4.PNG)
 
-![Vista Previa 5](./imagenesReadme/Liter_5)
+![Vista Previa 5](./imagenesReadme/Liter_5.PNG)
 
-![Vista Previa 6](./imagenesReadme/Liter_0)
+![Vista Previa 6](./imagenesReadme/Liter_0.PNG)
 
 
 ---

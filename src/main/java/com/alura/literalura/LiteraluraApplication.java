@@ -57,7 +57,12 @@ public class LiteraluraApplication implements CommandLineRunner {
         
                 """;
 
-			System.out.println("Bienvendido a Literalura");
+			System.out.println("""
+					
+					\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					Bienvendido a Literalura
+					\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					""");
 			System.out.println(menu);
 			var datosIngresadosPorUsuario = scannerLectura.nextLine();
 
